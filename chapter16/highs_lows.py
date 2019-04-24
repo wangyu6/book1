@@ -3,7 +3,7 @@ from datetime import datetime
 from matplotlib import pyplot as plt
 #从文件中获取日期、最高、最低气温
 filename = 'death_valley_2014.csv'
-with open(filename) as f:
+with open( filename ) as f:
 	reader = csv.reader(f)
 	header_row = next(reader)
 	# print(header_row)
